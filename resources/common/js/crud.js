@@ -51,7 +51,8 @@ $(function() {
     tabela += '<table class="table table-hover table-bordered"><thead><tr>';
     tabela += '<th scope="col">#</th><th scope="col">Nome</th>';
     tabela += '<th scope="col">Telefone</th><th scope="col">E-mail</th>';
-    tabela += '<th scope="col">Endereço</th><th scope="col">Site</th><th scope="col"></th></tr></thead><tbody>';
+    tabela += '<th scope="col">Endereço</th>'
+    tabela += '<th scope="col">Site</th><th scope="col"></th></tr></thead><tbody>';
   
     $.each(jsonDados, function(indice, contato) {
       tabela += '<tr>';
